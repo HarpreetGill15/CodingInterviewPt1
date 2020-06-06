@@ -1,0 +1,39 @@
+
+
+.container{
+    max-width: 90%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex: 1 1 0px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    background-color: #80808014;
+}
+.card_crown{
+    float: right;
+    margin-right: 20px;
+    
+}
+.card_Image{
+    width: 250px;
+    max-width: 250px;
+    border-radius: 50%;
+}
+.card_Image_Title{
+    margin-top: 55px;
+}
+.card_Badge{
+    flex: 1 0 0px;
+    text-align: center;
+    margin: 5px;
+}
